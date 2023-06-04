@@ -16,7 +16,7 @@ as each region effectively has its own "main thread" that executes
 the entire tick loop.
 
 For a server with many spread out players, Folia will create many
-spread out regions and tick them all in parallel on a configurable sized
+spread out regions and tick them all in parallel on a configurabl1e sized
 threadpool. Thus, Folia should scale well for servers like this.
 
 Folia is also its own project, this will not be merged into Paper
